@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/vendor/(.*)$ vendor/$2 [nc,L]
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/js/(.*)$ js/$2 [nc,L]
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/css/(.*)$ css/$2 [nc,L]
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/img/(.*)$ img/$2 [nc,L]
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/fonts/(.*)$ fonts/$2 [nc,L]
+
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/login$ login.php?brand=$1
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/logout$ logout.php?brand=$1
+
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/pembayaran-manage$ pembayaran-manage.php?brand=$1
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/print-invoice$ print-invoice.php?brand=$1
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/print-suratjalan$ print-suratjalan.php?brand=$1
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/print-multipleinvoice$ print-multipleinvoice.php?brand=$1
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/print-multiplesuratjalan$ print-multiplesuratjalan.php?brand=$1
+RewriteRule ^(liason|sinfung|hokhu|jungfat)/(.*)$ page.php?brand=$1&alias=$2

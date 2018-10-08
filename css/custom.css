@@ -1,0 +1,187 @@
+.center{
+	text-align:center;
+}
+
+.selectpadding {
+    padding: 0.0rem 0.75rem !important;
+}
+
+.selectheight{
+	height:42px !important;
+}
+
+.submitheight{
+	height:42px !important;
+}
+
+.formauto{
+	width: auto !important;
+}
+
+.formmedium{
+	width: 150px !important;
+}
+
+.tableactionwidth{
+	min-width:80px;
+}
+
+.displayinline{
+	display: inline !important;
+}
+
+.lusinwidth{
+	width:80px !important;
+}
+
+.actiongap{
+	height:10px;
+}
+
+.red{
+	color:red !important;
+}
+
+.orange{
+	color:#FFA500 !important;
+}
+
+.green{
+	color:green !important;
+}
+
+.errormessage {
+	color:red;
+}
+
+.jenisaksessubmenu {
+	margin-left: 20px;
+}
+
+.notificationtext {
+	color: green;
+}
+
+.notificationerror {
+	color: red;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: ' ';
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
+.btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #555;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: #f3f3f3;
+}
+.btn.disabled {
+  cursor: not-allowed;
+  color: #ddd;
+  border-color: #ddd;
+}
+.btn-cgroup {
+  padding: 15px 20px;
+  text-align: right;
+  background-color: #f5f6f8;
+}
+.btn-primary {
+  color: #fff;
+  border-color: #0066c0;
+  background-color: #0074d9;
+}
+.btn-primary:hover {
+  background-color: #0066c0;
+}
+.btn-danger {
+  color: #fff;
+  border-color: #ab3326;
+  background-color: #c0392b;
+}
+.btn-danger:hover {
+  background-color: #ab3326;
+}
+.btn-cancel {
+  color: #999;
+  border-color: #ddd;
+}
+.btn-cancel:hover {
+  background-color: #e6e6e6;
+}
+
+.site-dialog {
+  overflow: hidden;
+  width: 95%;
+  max-width: 500px;
+  padding: 0;
+  border-width: 0;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.site-dialog h1 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  color: #fff;
+}
+.site-dialog p {
+  font-size: 14px;
+}
+.site-dialog .dialog-header {
+  padding: 12px 20px;
+  background-color: #434a54;
+}
+.site-dialog .dialog-content {
+  padding: 30px 20px;
+  color: #555;
+  background-color: #fff;
+}
+.site-dialog .dialog-content p:last-of-type,
+.site-dialog .dialog-content p:only-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.site-dialog .btn {
+  float: right;
+  margin-left: 20px;
+}
+
+dialog {
+    visibility: hidden;
+    transform: scale(0.1);
+    transition: transform 200ms;
+}
+dialog.dialog-scale {
+    visibility: visible;
+    transform: scale(1);
+}
+
+.printcontainer{
+	padding:0px !important;
+	font-family: Tahoma, Geneva, sans-serif !important;
+	font-size:14px !important;
+}
+
+.printlogopadding{
+	padding-right:20px;
+}
+
+.printtokoalamat{
+	font-size:10px;
+}
